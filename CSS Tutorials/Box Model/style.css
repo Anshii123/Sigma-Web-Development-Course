@@ -1,0 +1,28 @@
+.box{
+    background-color: aqua;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    color:black;
+    height: 200px;
+    padding: 10px;
+    margin: 25px;
+    /* Margin is always applied outside the element.While the padding is applied only from the inside of the element. */
+    border: 5px solid blue;
+    box-sizing: border-box;
+    /* If we have applied border box property then the total width of the element including its padding and border not margin and will be equal to 200px. But if we do not apply any property of borderbox then the total height of the element will be equal to 200 plus margin,border and padding.  */
+
+}
+/* Now let's learn margin collapse.
+*/.box2{
+    color: red;
+    height: 200px;
+    padding: 10px;
+    margin: 25px;
+    border: 5px solid green;
+    box-sizing: border-box;
+    /* Whenever the margin of two elements overlap then the margin of higher value will be applied only at once. */
+} 

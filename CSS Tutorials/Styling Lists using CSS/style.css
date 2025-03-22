@@ -1,0 +1,10 @@
+nav ul li{
+    list-style: none;
+    /* background-color: yellow; */
+    /* list-style-position: inside;
+    border: 2px solid black;
+    list-style-type: disc; */
+    display: flex;
+    padding: 25px;
+
+}

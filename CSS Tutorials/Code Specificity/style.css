@@ -1,0 +1,27 @@
+h1{
+    color: red;
+}
+.yellow{
+    color:yellow;
+}
+.cred{
+    color: red;
+}
+.cpurple{
+    color: purple;
+}
+/* If we have to answer here which property will be applied then that class will be applied which one is written at last.If the selector type changes then the specificity rule will be used. */
+
+/* Specificity order 1. Inline style 2.ID Selector 3.Class or Attribute Selector 4.Element Selector 5.Universal order . This is the decreasing order of the specificity. */
+/* If we write important in any change then it can only overwrite inline style. */
+
+/* 1.Give 0 points to universal selectors.
+2.Give 1 point to universal selectors.
+3.Give 10 points to class or attribute or pseudo selector.
+4.Give 100 points to id selector.
+5.Give 1000 points to inline style.
+6.Give 10000 points to that element when written important.
+In this way, the specificity will be calculated.
+ */
+ 
+

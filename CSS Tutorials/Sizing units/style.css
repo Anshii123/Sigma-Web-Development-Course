@@ -1,0 +1,38 @@
+html{
+    font-size: 12px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid blue;
+    /* width:2048px; */
+    width: 80vw;
+    margin: auto;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    height: 10vh;
+}
+
+.container{
+    border: 2px solid blue;
+    /* width:2048px; */
+    width: 80vw;
+    margin:23px auto;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    height: 80vh;
+    /* font-size: 1.5em; */
+    /* em unit will be used when we take output as the number of times the output will be with respect to the original size that was being supposed to come. */
+
+    font-size: 1 rem;
+    /* rem unit will be used when we want to give our output in respect to the root element. */
+}
+.mycont{
+    background-color: red;
+    color:black;
+    font-size: 22px;
+    width: 100vmin;
+   
+}

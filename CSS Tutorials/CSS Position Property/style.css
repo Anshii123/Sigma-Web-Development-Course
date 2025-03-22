@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid black;
+    height: 433px;
+    width: 80vw;
+    margin: 3px;
+    padding: 3px;
+}
+.box1{
+    background-color:yellow ;
+    position: sticky;
+    top: 0px;
+    height: 111px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* position: absolute;  */
+    /* In absolute position case the position will get change with respect to the nearest parent element. */
+}
+.box2{
+    background-color: aqua;
+    /* position: relative;  */
+    /* The relative position will be applied and the position of that element itself changes. */
+    /* top: 60px;
+    left: 34px;
+    z-index: 1;
+ */
+}
+.box3{
+    background-color: bisque;
+    /* position: fixed; */
+    /* bottom: 0px;
+    left: 25vw; */
+    /* If we put position as fixed then it will not move from this position anymore. */
+    
+}
+.box4{
+    background-color: beige;
+}
+.parent{
+    padding: 43px;
+    margin: 34px;
+    border: 2px solid purple;
+}

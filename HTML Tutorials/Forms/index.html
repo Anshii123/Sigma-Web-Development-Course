@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in <Html></Html></title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="\form.php" method="post">
+    <div>
+        <label for="username">Enter your username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+    </div>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+    </div>
+    <div>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter.</label>
+    </div>
+    <div>
+        <input type="checkbox" id="English" name="lang" value="yes">
+        <label for="English">English</label>
+        <input type="checkbox" id="Hindi" name="lang" value="yes">
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" id="French" name="lang" value="yes">
+        <label for="French">French</label>
+    </div>
+    <div>
+        <label for="comment">Enter your comment here.</label><br>
+        <textarea name="comment" id="comment" rows="10" cols="50"></textarea>
+    </div>
+    <div>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="mango">Mango</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+    </div>
+    <!-- If we write required in any input tag then that field should be filled immediately. -->
+     <!-- If we write pattern="[a-zA-Z0-9]+" then it will accept only specific type of input in it. -->
+    </form>
+</body>
+</html>

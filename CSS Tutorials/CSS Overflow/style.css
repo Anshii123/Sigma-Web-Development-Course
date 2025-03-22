@@ -1,0 +1,13 @@
+.box{
+    width: 10vw;
+    height: 10vw;
+    border: 2px solid black;
+    /* overflow: scroll; */
+    /* Overflow scroll will always return a scrollbar in the content irrespective of that the content is overflowing or not. While if we use overflow auto then it will show the scroll bar only if the content overflows. */
+    overflow: auto;
+    white-space: nowrap;
+    /* White space : nowrap is used to show that the content should be in a single line and it should not go in the next line. */
+    text-overflow: ellipsis;
+    /* Ellipsis shows dots in case of overflow condition. */
+
+}

@@ -1,0 +1,44 @@
+/* Element Selector */
+div{
+    background-color: red;
+}
+/* Class Selector */
+.yellow{
+    background-color: yellow;
+}
+/* ID Selector */
+#green{
+    background-color: green;
+}
+/* Child Selectors */
+/* This property will be applied only when paragraph is the direct child of div container. */
+div>p{
+    background-color: aqua;
+}
+
+/* But if we want that the property will apply even if it is not the direct child.Then we will use the descendant selectors. */
+/* Descendant Selectors. */
+div p{
+    background-color: aqua;
+}
+/* Universal Selectors will be applied when we want that the property will get applied in all elements. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Pseudo Selectors. */
+a:visited{
+    color: yellow;
+}
+a:link{
+    color: green;
+}
+a:active{
+    background-color: red;
+}
+a:hover{
+    background-color: pink;
+}
+p:first-child{
+    background-color: blue;
+}
